@@ -1,0 +1,17 @@
+$color1: blue;
+$color2: red;
+$color3: purple;
+
+header {
+  a {
+    color: $color3;
+  }
+}
+body {
+  background-color: $color1;
+  margin: 0;
+  h1{
+    color: $color2;
+  }
+}
+
