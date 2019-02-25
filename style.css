@@ -8,8 +8,7 @@ body {
   font-size: 1rem;
   line-height: 1.5;
   font-family: 'Raleway', sans-serif;
-  text-align: center;
-  margin: 0;
+  margin: 10px;
 }
 
 h1,
@@ -43,11 +42,16 @@ header p {
   margin: 0;
 }
 
+.text {
+  margin: 10px;
+}
+
 footer {
   padding: 2em 0 0;
   height: 100px;
   background-color: #eee;
   margin-top: 3.5em;
+  text-align: center;
 }
 
 .inner {
@@ -61,9 +65,6 @@ footer {
 
 .main-nav {
   margin-top: 1em;
-}
-
-.card {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -71,8 +72,63 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.main-nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.main-nav :hover {
+  text-decoration: underline;
+}
+
+.card {
   padding: 1.5em 1em;
   border: 1px solid #eee;
   border-radius: .25em;
+  margin-top: 100px;
+}
+
+.right {
+  text-align: center;
+  width: 50%;
+  margin-right: 0;
+  padding: 20px;
+  margin-left: auto;
+}
+
+.left {
+  text-align: center;
+  width: 50%;
+  margin-left: 0;
+  padding: 20px;
+  margin-right: auto;
+}
+
+.card h1 {
+  color: #2aa2bd;
+  margin: 0.35em 0 0;
+  line-height: 1.25;
+}
+
+.btn-info {
+  color: #fff;
+  display: inline-block;
+  font-size: 0.85em;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0.75em 1.5em;
+  border-radius: 0.35em;
+  background-color: #2fa2bb;
+  margin-top: auto;
+  border: 1pt solid black;
+}
+
+@media only screen and (min-width: 375px) {
+  header {
+    height: 300px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
